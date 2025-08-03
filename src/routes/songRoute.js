@@ -1,6 +1,7 @@
 import { addSong, listSong ,removeSong, searchSongs } from "../controllers/songController.js";
 import express from 'express'
 import upload from "../middleware/multer.js";
+import multer from 'multer';
 
 
 

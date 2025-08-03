@@ -9,6 +9,7 @@ import {
   searchAlbums,
 } from "../controllers/albumControllers.js";
 import upload from "../middleware/multer.js";
+import multer from 'multer';
 
 const albumRouter = express.Router();
 
